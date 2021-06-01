@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(180, 114, 75);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1000px;
+  background-color: rgb(182, 176, 176);
+  margin: 0 auto;  
+  padding: 10px;
+}
+
+/*---------
+head section start
+-----------*/
+header{
+
+}
+.profile-image{
+    width:150px;
+    height: 170px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 3, 3);
+}
+.header-contact{
+    float: right;
+    padding: 25px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(59, 62, 75);
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: rgb(16, 52, 211);
+}
+
+/*---------
+head section end
+-----------*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  hr{
+      border:solid rgb(100, 14, 236);
+      width: 100%;
+      margin: 20px auto;
+      border-bottom: none;
+
+  }
+/*---------
+main section strat
+-----------*/
+
+/*---------
+personal section start
+-----------*/
+#personal-sectiion{
+
+}
+.content{
+    margin-bottom: 30px 0px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border:solid rgb(91, 0, 236) 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*---------
+Education section start
+-----------*/
+.bsc{
+    width: 30%;
+    float: left;
+}
+.hsc{
+    width: 35%;
+    float: left;
+}
+.ssc{
+    width: 35%;
+    float: left;
+}
+
+/*---------
+Education section  end
+-----------*/
+
+/*---------
+Footer section  start
+-----------*/
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: blanchedalmond;
+    margin-top: 20px;
+}
+
+/*---------
+Footer section  end
+-----------*/
+
+/*---------
+main section end
+-----------*/
